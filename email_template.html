@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Partner Inquiry</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f5f0eb; font-family: 'Georgia', 'Times New Roman', serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color: #f5f0eb; padding: 40px 20px;">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background-color: #ffffff; border-radius: 8px; overflow: hidden;">
+
+          <!-- Header -->
+          <tr>
+            <td style="background-color: #2c2c2c; padding: 30px 40px; text-align: left;">
+              <table role="presentation" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="padding-right: 12px; vertical-align: middle;">
+                    <span style="color: #d4a843; font-size: 28px; font-weight: bold; letter-spacing: 2px;">|||</span>
+                  </td>
+                  <td style="vertical-align: middle;">
+                    <div style="color: #ffffff; font-size: 22px; font-weight: bold; letter-spacing: 4px;">NAAD</div>
+                    <div style="color: #a0a0a0; font-size: 10px; letter-spacing: 2px; margin-top: 2px;">THE MUSIC THAT HEALS</div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Title -->
+          <tr>
+            <td style="padding: 40px 40px 10px 40px;">
+              <h1 style="margin: 0; font-size: 26px; font-weight: normal; color: #2c2c2c;">New Partner Inquiry</h1>
+              <p style="margin: 8px 0 0 0; font-size: 14px; color: #8a8a8a; line-height: 1.5;">A new inquiry has been submitted through the partner form.</p>
+            </td>
+          </tr>
+
+          <!-- Divider -->
+          <tr>
+            <td style="padding: 10px 40px 20px 40px;">
+              <hr style="border: none; border-top: 1px solid #e8e0d8; margin: 0;" />
+            </td>
+          </tr>
+
+          <!-- Details -->
+          <tr>
+            <td style="padding: 0 40px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+
+                <!-- Name -->
+                <tr>
+                  <td style="padding: 14px 0 10px 0;">
+                    <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: #8a8a8a; margin-bottom: 6px;">Name</div>
+                    <div style="font-size: 16px; color: #2c2c2c;">{{ $json.name }}</div>
+                  </td>
+                </tr>
+                <tr><td style="padding: 0;"><hr style="border: none; border-top: 1px solid #e8e0d8; margin: 0;" /></td></tr>
+
+                <!-- Phone -->
+                <tr>
+                  <td style="padding: 14px 0 10px 0;">
+                    <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: #8a8a8a; margin-bottom: 6px;">Phone</div>
+                    <div style="font-size: 16px; color: #2c2c2c;">{{ $json.phone }}</div>
+                  </td>
+                </tr>
+                <tr><td style="padding: 0;"><hr style="border: none; border-top: 1px solid #e8e0d8; margin: 0;" /></td></tr>
+
+                <!-- Email -->
+                <tr>
+                  <td style="padding: 14px 0 10px 0;">
+                    <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: #8a8a8a; margin-bottom: 6px;">Email</div>
+                    <div style="font-size: 16px; color: #2c2c2c;">
+                      <a href="mailto:{{ $json.email }}" style="color: #2c2c2c; text-decoration: none;">{{ $json.email }}</a>
+                    </div>
+                  </td>
+                </tr>
+                <tr><td style="padding: 0;"><hr style="border: none; border-top: 1px solid #e8e0d8; margin: 0;" /></td></tr>
+
+                <!-- Company -->
+                <tr>
+                  <td style="padding: 14px 0 10px 0;">
+                    <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: #8a8a8a; margin-bottom: 6px;">Company / Studio Name</div>
+                    <div style="font-size: 16px; color: #2c2c2c;">{{ $json.company }}</div>
+                  </td>
+                </tr>
+                <tr><td style="padding: 0;"><hr style="border: none; border-top: 1px solid #e8e0d8; margin: 0;" /></td></tr>
+
+                <!-- Business Type -->
+                <tr>
+                  <td style="padding: 14px 0 10px 0;">
+                    <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: #8a8a8a; margin-bottom: 6px;">Type of Business</div>
+                    <div style="font-size: 16px; color: #2c2c2c;">{{ $json.business_type }}</div>
+                  </td>
+                </tr>
+                <tr><td style="padding: 0;"><hr style="border: none; border-top: 1px solid #e8e0d8; margin: 0;" /></td></tr>
+
+                <!-- User Count -->
+                <tr>
+                  <td style="padding: 14px 0 10px 0;">
+                    <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: #8a8a8a; margin-bottom: 6px;">Approximate Users</div>
+                    <div style="font-size: 16px; color: #2c2c2c;">{{ $json.user_count }}</div>
+                  </td>
+                </tr>
+
+              </table>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="background-color: #f9f6f2; padding: 24px 40px; text-align: center; margin-top: 20px;">
+              <p style="margin: 0; font-size: 12px; color: #a0a0a0; line-height: 1.6;">
+                This is an automated notification from the NAAD partner inquiry form.<br />
+                &copy; 2026 NAAD &mdash; The Music That Heals
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+    "HW": "Hardware ID - Unique device serial number of the shoe",
+    "AC": "Accelerometer - Measures movement/acceleration in (x, y, z) triplets",
+    "GY": "Gyroscope - Measures rotation/angular velocity in (x, y, z) triplets",
+    "BT": "Battery - Battery level percentage of the shoe device",
+    "FP": "Flag Pointer - Connectivity flag (0 = real-time, 1 = offline/buffered)",
+    "PC": "Packet Counter - Tracks number of transmitted packets",
+    "DT": "Data Type - Data type flag",
+    "T": "Type - Message type (BL = Body Left motion, BR = Body Right motion, PG = PPG optical)",
+    "BL": "Body Left - Motion data from the left shoe",
+    "BR": "Body Right - Motion data from the right shoe",
+    "PG": "Photoplethysmography - Heart rate/blood oxygen optical sensor data",
+    "IR": "Infrared - Infrared light sensor values for heart rate detection",
+    "RD": "Red Light - Red light sensor values for SpO2 (blood oxygen) calculation",
+    "PPG": "Photoplethysmography - Topic name for left shoe data stream (motion + PPG)",
+    "BPST_RIGHT": "Body Posture Right - Topic name for right shoe data stream (motion only)",
+    "TP": "Temperature - Temperature sensor (not active on right shoe)",
+    "Spo2": "Blood Oxygen Saturation - SpO2 sensor (not active on right shoe)"
+}
