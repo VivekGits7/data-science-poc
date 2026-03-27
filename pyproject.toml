@@ -1,0 +1,19 @@
+[project]
+name = "data-science-poc"
+version = "0.1.0"
+description = "Data Science POC API"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.133.1",
+    "pydantic[email]>=2.12.5",
+    "pydantic-settings>=2.9.1",
+    "python-jose>=3.5.0",
+    "passlib[bcrypt]>=1.7.4",
+    "bcrypt==4.0.1",
+    "slowapi>=0.1.9",
+    "uvicorn[standard]>=0.41.0",
+    "python-multipart>=0.0.22",
+    "httpx>=0.28.1",
+    "python-dotenv>=1.1.0",
+]
